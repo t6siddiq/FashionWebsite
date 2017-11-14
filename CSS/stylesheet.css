@@ -1,0 +1,24 @@
+body 
+{
+    background-color:tomato;
+    padding: 0px;
+}
+
+h1
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+}
+
+h1.name
+{
+    float: right;
+}
+
+.topbanner
+{
+    background-color: bisque;
+    width: 100%;
+    height: 20%;
+    border: 1px solid powderblue;
+}

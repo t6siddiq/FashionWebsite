@@ -5,11 +5,11 @@
     "version": "0.1.0",
     "configurations": [
         {
-            "name": "Launch index.html (disable sourcemaps)",
+            "name": "Launch fashion.html (disable sourcemaps)",
             "type": "chrome",
             "request": "launch",
             "sourceMaps": false,
-            "file": "${workspaceRoot}/index.html"
+            "file": "${workspaceRoot}/fashion.html"
         },
     ]
 }

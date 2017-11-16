@@ -67,20 +67,19 @@ header .banner-text hr {
 header .logo
 {
     font-family: 'Great Vibes', cursive;
-    font-size: 20px;
-    color: bisque;
-    float:left;
+    font-size: 40px;
+    color: pink;
+	float:left;
     margin: 20px;
 }
 
 header .title
 {
     font-family: 'Great Vibes', cursive;
-    font-size: 60px;
+    font-size: 80px;
     color: bisque;
     margin:50px 10px;;
     padding:10px;
-    float:right;
 }
 
 /* primary navigation
@@ -90,7 +89,7 @@ header .title
 	padding: 0;
 	border: none;
     outline: none;
-    float: right;
+	float: right;
 }
 
 /* nav-wrap */
@@ -104,7 +103,9 @@ header .title
 	position: absolute;
 	right: 0;
     top: 0;
-    float:right;
+	float:right;
+	height: 80px;
+	background-color:rgb(243, 122, 146);
 }
 .opaque {
 	background-color: #333;
@@ -159,7 +160,7 @@ ul#nav li a:before {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: pink;
+	background-color: crimson;
 	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
@@ -173,7 +174,7 @@ ul#nav li a:hover:before{
 	
 }
 ul#nav li.current a {
-	color: pink;
+	color: crimson;
 }
 
 /* ------------------------------------------------------------------ */
